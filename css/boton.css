@@ -1,0 +1,31 @@
+.button.comprobar::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(219, 235, 74);
+  z-index: 1;
+  top: -87px;
+  left: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.button:hover::after {
+  top: 0;
+}
+
+.button.reiniciar::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(61, 212, 94);
+  z-index: 1;
+  top: -87px;
+  left: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.button.reiniciar:hover::after {
+  top: 0;
+}
